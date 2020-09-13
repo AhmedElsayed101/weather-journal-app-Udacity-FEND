@@ -1,9 +1,9 @@
 # Weather-Journal App Project
 
 ## Overview
-### This project is an asynchronous web app that uses Web API and user data to dynamically update the UI using OpenWeatherMap API. 
-### This is a Udacity front-end nano-degree project.
-### This project mainly is to practice back end technologies based on javascript like node-js and express-js.
+#### This project is an asynchronous web app that uses Web API and user data to dynamically update the UI using OpenWeatherMap API. 
+#### This is a Udacity front-end nano-degree project.
+#### This project mainly is to practice back end technologies based on javascript like node-js and express-js.
 
 ## Pre-requisites and Local Development
 
