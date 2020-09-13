@@ -5,8 +5,6 @@ let projectData = {};
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const path = require('path')
-
 
 // Start up an instance of app
 const app = express()
@@ -33,10 +31,12 @@ function listening(){
 
 app.listen(PORT, listening);
 
+// handle GET request and return data
 app.get('/getData', (req, res) => {
     res.send(projectData)
 })
 
+// handle POST request and save data to projectData variable
 app.post('/create', (req, res) => {
     
     const data  = req.body
