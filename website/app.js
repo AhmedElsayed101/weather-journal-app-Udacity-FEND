@@ -60,7 +60,7 @@ const generateData =  () => {
     // save the data to userData global variable
     .then((data) => {
 
-        userData = data
+        userData.temperature = data.main.temp
         userData.feelings = feelings
         userData.date= newDate
     })

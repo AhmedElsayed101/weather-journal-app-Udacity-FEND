@@ -42,7 +42,7 @@ app.post('/create', (req, res) => {
     const data  = req.body
 
     projectData = {
-        'temperature' : data.main.temp,
+        'temperature' : data.temperature,
         'date' : data.date,
         'feelings' : data.feelings
     }
